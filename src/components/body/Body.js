@@ -3,11 +3,12 @@ import About from "./about/About";
 import Education from "./education/Education";
 import Projects from "./projects/Projects";
 import Experience from "./experience/Experience";
+
 import "./Body.css";
+
 const Body = () => {
   return (
     <div className="body">
-      this is body
       <section id="about">
         <About />
       </section>
