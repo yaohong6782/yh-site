@@ -18,8 +18,12 @@ const ProjectCard = ({ props }) => {
         </div>
         <p>{props.about}</p>
         <div className="project-tags">
-          {props.tags.map((tag) => {
-            return <label className="tag">{tag}</label>;
+          {props.tags.map((tag, idx) => {
+            return (
+              <label className="tag" key={idx}>
+                {tag}
+              </label>
+            );
           })}
         </div>
       </div>

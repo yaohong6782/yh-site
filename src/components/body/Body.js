@@ -5,6 +5,7 @@ import Projects from "./projects/Projects";
 import Experience from "./experience/Experience";
 
 import "./Body.css";
+import Spacer from "../reusables/separator/Spacer";
 
 const Body = () => {
   return (

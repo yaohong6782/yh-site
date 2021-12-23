@@ -1,0 +1,21 @@
+.spacer {
+  background-image: linear-gradient(
+    to right,
+    #9200b1,
+    #8e34b8,
+    #8c4cbe,
+    #8b60c1,
+    #8c71c2,
+    #876fc1,
+    #826dbf,
+    #7d6bbe,
+    #6d57bc,
+    #5d43b9,
+    #4b2eb5,
+    #3513b1
+  );
+  height: 6px;
+  width: 40%;
+  border-radius: 4px;
+  margin: 20px 0px;
+}
