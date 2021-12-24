@@ -11,7 +11,7 @@ const Projects = () => {
   const ProjectList = [
     {
       id: 1,
-      title: "Food Ordering App",
+      title: "Food Ordering app",
       about:
         "Food Ordering Page displaying a list of items with corresponding outputs",
       objective:
@@ -22,7 +22,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "React Weather App",
+      title: "Weather Display app",
       about:
         "Displays the current Weather on the respective location base on the user input",
       objective: "Utilise APIs and React Components",
