@@ -32,7 +32,7 @@ const Projects = () => {
   ];
   return (
     <div className="projects">
-      <label className="section-title">Projects</label>
+      <label className="section-title">Random Stuffs I tried</label>
       <div>
         {ProjectList.map((item, id) => {
           return (

@@ -38,7 +38,7 @@ const Education = () => {
             </div>
             <div className="education-whereduration">
               <div className="education-where">{item.where}</div>
-              <div className="education-duration>">{item.duration}</div>
+              <div className="education-duration">{item.duration}</div>
             </div>
           </div>
         );

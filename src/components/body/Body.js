@@ -11,11 +11,10 @@ import Tech from "./tech/Tech";
 const Body = () => {
   return (
     <div className="body">
-    
       <section id="about">
         <About />
       </section>
-      
+
       <section id="education">
         <Education />
       </section>
@@ -23,9 +22,11 @@ const Body = () => {
       <section id="project">
         <Projects />
       </section>
+
       <section id="tech">
         <Tech />
       </section>
+
       <section id="experience">
         <Experience />
       </section>

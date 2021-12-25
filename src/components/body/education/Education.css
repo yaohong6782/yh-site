@@ -14,23 +14,24 @@
   justify-content: center;
   margin-bottom:16px;
 }
+
 .education-school {
   font-size: 20px;
   font-weight: 600;
 }
 
+
+.education-duration{
+    display:flex;
+    flex:1;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+
 .education-whereduration {
   display: flex;
   flex: 1;
-  justify-content: space;
   margin-left:250px;
-  font-weight:600
-  
 }
 
-.education-where {
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  padding-right: 6px;
-}
