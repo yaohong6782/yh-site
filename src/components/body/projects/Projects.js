@@ -11,9 +11,9 @@ const Projects = () => {
   const ProjectList = [
     {
       id: 1,
-      title: "Food Ordering app",
+      title: "Food Order page",
       about:
-        "Food Ordering Page displaying a list of items with corresponding outputs",
+        "Single Food Order webpage displaying a list of items with corresponding outputs",
       objective:
         "Diving deeper into React Hooks, Passing of Props and Components",
       tags: ["ReactJS", "Hooks", "Props"],
@@ -36,9 +36,9 @@ const Projects = () => {
       <div>
         {ProjectList.map((item, id) => {
           return (
-            <div key={id} >
-              <ProjectCard props={item}/>
+            <div key={id}>
               <Spacer />
+              <ProjectCard props={item} />
             </div>
           );
         })}

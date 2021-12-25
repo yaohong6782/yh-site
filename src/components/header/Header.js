@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <div className="header">
-      <div className="logo">Yh Portfolio</div>
+      <div className="logo">YH</div>
       <div className="menu">
         <div className="web-menu">
           <Web />

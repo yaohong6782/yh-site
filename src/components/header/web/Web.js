@@ -9,7 +9,7 @@ function Web() {
         </a>
       </div>
       <div className="web-options">
-        <a href="#skills">
+        <a href="#tech">
           <i class="fi fi-rr-browser option-icon"></i>Technologies
         </a>
       </div>

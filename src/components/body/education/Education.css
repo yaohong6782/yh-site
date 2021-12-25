@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+
   margin: 16px 0px;
   padding: 8px 0px;
   /* padding-left: 250px; */
@@ -10,28 +10,30 @@
 
 .education-wrapper {
   display: flex;
+  flex: 1;
   align-items: center;
   justify-content: center;
-  margin-bottom:16px;
+  margin-bottom: 16px;
 }
-
+.education-schoolcourse {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
 .education-school {
   font-size: 20px;
   font-weight: 600;
 }
 
-
-.education-duration{
-    display:flex;
-    flex:1;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: 600;
+.education-duration {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  font-weight: 600;
 }
 
 .education-whereduration {
   display: flex;
   flex: 1;
-  margin-left:250px;
-}
 
+}
