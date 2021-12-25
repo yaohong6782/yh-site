@@ -1,3 +1,3 @@
-My portfolio
+My portfolio 
 
-Work in progress
+Work in progress, subjected to changes 
