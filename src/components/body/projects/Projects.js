@@ -24,8 +24,7 @@ const Projects = () => {
       id: 2,
       title: "Weather Display app",
       about:
-        "Displays the current Weather on the respective location base on the user input",
-      objective: "Utilise APIs and React Components",
+        "Utilise APIs and React Components to displays the current Weather on the respective location base on the user input",
       tags: ["ReactJS", "API"],
       github: "https://github.com/yaohong6782/React-WeatherApp",
       image: waimg1,
@@ -33,13 +32,12 @@ const Projects = () => {
   ];
   return (
     <div className="projects">
-      <Spacer />
       <label className="section-title">Projects</label>
       <div>
         {ProjectList.map((item, id) => {
           return (
-            <div>
-              <ProjectCard props={item} key={id} />
+            <div key={id} >
+              <ProjectCard props={item}/>
               <Spacer />
             </div>
           );
