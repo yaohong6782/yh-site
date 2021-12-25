@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import codeimg from "../../../images/code-image.png";
+import me from "../../../images/me.png";
 import Contact from "../../reusables/Contact";
 
 const About = () => {
@@ -12,7 +12,7 @@ const About = () => {
           <span className="about-aspire"> an aspiring Software Developer</span>
         </div>
         <div className="about-img">
-          <img src={codeimg} alt="" className="own-photo"></img>
+          <img src={me} alt="" className="own-photo"></img>
         </div>
       </div>
       <Contact />
