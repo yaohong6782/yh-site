@@ -28,12 +28,12 @@
 .education-duration {
   display: flex;
   flex: 1;
-  flex-wrap: wrap;
+
   font-weight: 600;
 }
 
 .education-whereduration {
   display: flex;
   flex: 1;
-
+  margin-right: 400px;
 }
