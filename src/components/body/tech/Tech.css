@@ -1,15 +1,34 @@
-.tech-card {
-  width: max-content;
-  padding: 8px 16px;
-  height:120px;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items:center;
-  margin:6px;
-  border-radius:8px;
+.tech{
+    display:flex;
+    flex-direction: column;
+    width:100%;
 }
 
-.tech-icon{
-    font-size:40px;
+.tech-section{
+    /* display:flex; */
+    justify-content: space-between;
+    margin:12px 0px;
+}
+
+.tech-section-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.tech-list{
+    display:flex;
+    flex-wrap:wrap;
+    max-width: 70%;
+    justify-content: flex-start;
+}
+
+@media only screen and (max-width:700px) {
+    .tech-list{
+        max-width:100%;
+        justify-content: center;
+    }
+    .tech-section{
+        flex-direction: column;
+        align-items: center;
+    }
 }

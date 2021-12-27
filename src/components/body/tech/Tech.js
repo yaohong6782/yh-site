@@ -23,6 +23,24 @@ const Tech = () => {
           },
       ],
     },
+    {
+        id: 2,
+        type: "Technologies",
+        languageList: [
+          {
+            name: "ReactJS",
+            icon: <i class="devicon-react-original colored"></i>,
+          },
+          {
+            name: "Flask",
+            icon: <i class="devicon-flask-original colored"></i>,
+          },
+          { 
+              name: "Git",
+              icon: <i class="devicon-git-plain colored"></i>,
+            },
+        ],
+      },
 
   ];
   return (
@@ -33,11 +51,10 @@ const Tech = () => {
         {TechList.map((item) => {
           return (
             <div className="tech-section">
-              <label>{item.type}</label>
+              <label className="tech-section-title">{item.type}</label>
               <div className="tech-list">
                 {item.languageList.map((item) => {
-              
-                  return <TechCard props={item} />;
+                  return <TechCard props={item} />; 
                 })}
               </div>
             </div>
