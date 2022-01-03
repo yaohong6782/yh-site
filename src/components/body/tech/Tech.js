@@ -48,13 +48,13 @@ const Tech = () => {
       <Spacer />
       <label className="section-title">Skills</label>
       <div className="tech-container">
-        {TechList.map((item) => {
+        {TechList.map((item,idx) => {
           return (
-            <div className="tech-section">
+            <div className="tech-section" key={item.id}>
               <label className="tech-section-title">{item.type}</label>
               <div className="tech-list">
-                {item.languageList.map((item) => {
-                  return <TechCard props={item} />; 
+                {item.languageList.map((item,idx) => {
+                  return <TechCard props={item} key={idx} />; 
                 })}
               </div>
             </div>
