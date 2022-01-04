@@ -4,7 +4,6 @@ const Work = () => {
   return (
     <div>
       work experience here
-        {/* todo */}
     </div>
   );
 };
