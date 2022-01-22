@@ -3,3 +3,9 @@
     flex-direction: column;
     flex:1;
 }
+
+.section-title{
+    font-weight: 600;
+    font-size:18px;
+    padding-bottom: 2px;
+}

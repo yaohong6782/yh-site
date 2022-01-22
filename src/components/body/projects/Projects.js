@@ -6,6 +6,7 @@ import faimg1 from "../../../images/foodapp1.jpg";
 import ProjectCard from "./ProjectCard";
 import Spacer from "../../reusables/separator/Spacer";
 import VerticalSpacer from "../../reusables/separator/VerticalSpacer";
+import "./Project.css";
 
 const Projects = () => {
   const ProjectList = [
@@ -32,7 +33,7 @@ const Projects = () => {
   ];
   return (
     <div className="projects">
-      <label className="section-title">Random Stuffs I tried</label>
+      <label className="section-title">Random things I've tried making </label>
       <div>
         {ProjectList.map((item, id) => {
           return (

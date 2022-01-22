@@ -11,18 +11,14 @@ const Work = () => {
         },
         {
             id:2,
-            exp:"Student Project liased with Changi Airport Group",
-            department:"",
+            exp:"Changi Airport Group",
+            department:"IOT Student Project with CAG",
             role:"Software Developer"
         }
     ]
     return (
     <div>
-      {/* css styling to be done  */}
-      <h2>Onwards Media Group</h2>
-      <p>Software developer Intern</p>
-      <h2>Changi Airport Group</h2>
-      <p>Student project liased with CAG</p>
+
     </div>
   );
 };
