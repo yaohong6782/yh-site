@@ -1,11 +1,10 @@
 import React from "react";
 
 import waimg1 from "../../../images/weather-app1.jpg";
-import waimg2 from "../../../images/weather-app2.jpg";
 import faimg1 from "../../../images/foodapp1.jpg";
 import ProjectCard from "./ProjectCard";
 import Spacer from "../../reusables/separator/Spacer";
-import VerticalSpacer from "../../reusables/separator/VerticalSpacer";
+
 import "./Project.css";
 
 const Projects = () => {

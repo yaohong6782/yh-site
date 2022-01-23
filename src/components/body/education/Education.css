@@ -28,8 +28,8 @@
 .education-duration {
   display: flex;
   flex: 1;
-
   font-weight: 600;
+  padding-left:5px;
 }
 
 .education-whereduration {

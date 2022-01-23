@@ -82,7 +82,7 @@ const Tech = () => {
       </div>
       <div className="icons-credit">
         <i>
-          Icons from <a href="https://icons8.com/">Icons8</a>
+          Icons taken from <a href="https://icons8.com/">Icons8</a>
         </i>
       </div>
     </div>

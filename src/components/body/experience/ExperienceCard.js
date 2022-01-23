@@ -1,10 +1,13 @@
 import React from "react";
+import "./ExperienceCard.css";
 
 const ExperienceCard = ({ props }) => {
   return (
-    <div classname="experience-card">
-      <div classname="experience-title">{props.exp}</div>
-      <div classname="experience-department">{props.department}</div>
+    <div className="experience-card">
+      <div className="tile-section">
+        <label className="experience-title">{props.exp}</label>
+      </div>
+      <div className="experience-department">{"Department - "} {props.department}</div>
     </div>
   );
 };
