@@ -28,6 +28,7 @@ const ProjectCard = ({ props }) => {
         </div>
       </div>
       <img src={props.image} className="project-photo" alt=""></img>
+      
     </div>
   );
 };

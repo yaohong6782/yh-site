@@ -13,6 +13,7 @@
 
 .project-info {
   margin-right: 20px;
+  max-width: 50%;
 }
 
 .project-title {
@@ -74,7 +75,7 @@
     margin-left: 0px;
     margin-top: 12px;
   }
-  
+
   .project-tags {
     max-width: 100%;
   }
