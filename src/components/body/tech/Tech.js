@@ -11,15 +11,30 @@ const Tech = () => {
       languageList: [
         {
           name: "Python",
-          icon: <i class="devicon-python-plain colored"></i>,
+          icon: (
+            <img
+              src="https://img.icons8.com/color/50/000000/python--v1.png"
+              alt="python-img"
+            />
+          ),
         },
         {
           name: "Java",
-          icon: <i class="devicon-java-plain colored"></i>,
+          icon: (
+            <img
+              src="https://img.icons8.com/color/50/000000/java-coffee-cup-logo--v1.png"
+              alt="java-img"
+            />
+          ),
         },
         {
           name: "JavaScript",
-          icon: <i class="devicon-javascript-plain colored"></i>,
+          icon: (
+            <img
+              src="https://img.icons8.com/color/48/000000/javascript--v1.png"
+              alt="js-img"
+            />
+          ),
         },
       ],
     },
@@ -66,7 +81,9 @@ const Tech = () => {
         })}
       </div>
       <div className="icons-credit">
-        <i>Icons from <a href="https://icons8.com/icon/bzf0DqjXFHIW/react">Icons8</a></i>
+        <i>
+          Icons from <a href="https://icons8.com/">Icons8</a>
+        </i>
       </div>
     </div>
   );
