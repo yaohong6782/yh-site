@@ -4,9 +4,7 @@ import "./ExperienceCard.css";
 const ExperienceCard = ({ props }) => {
   return (
     <div className="experience-card">
-      <div className="tile-section">
         <label className="experience-title">{props.exp}</label>
-      </div>
       <div className="experience-department">{"Department - "} {props.department}</div>
     </div>
   );
