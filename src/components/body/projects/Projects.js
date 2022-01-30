@@ -16,7 +16,7 @@ const Projects = () => {
         "Single Food Order webpage displaying a list of items with corresponding outputs",
       objective:
         "Diving deeper into React Hooks, Passing of Props and Components",
-      tags: ["ReactJS", "Hooks", "Props"],
+      tags: ["ReactJS"],
       github: "",
       image: faimg1,
     },
@@ -25,15 +25,16 @@ const Projects = () => {
       title: "Weather Display app",
       about:
         "Utilise APIs and React Components to displays the current Weather on the respective location base on the user input",
-      tags: ["ReactJS", "API"],
+      tags: ["ReactJS"],
       github: "https://github.com/yaohong6782/React-WeatherApp",
       image: waimg1,
     },
   ];
   return (
     <div className="projects">
-      <label className="section-title">Things I've tried making </label>
+      
       <div>
+      <label className="section-title">Things I've tried making with React </label>
         {ProjectList.map((item, id) => {
           return (
             <div key={id}>

@@ -1,7 +1,6 @@
 import React from "react";
 import Spacer from "../../reusables/separator/Spacer";
 import ExperienceCard from "./ExperienceCard";
-
 const Work = () => {
   const ExpList = [
     {
@@ -20,8 +19,9 @@ const Work = () => {
 
   return (
     <div classname="experiences">
+    <Spacer />
+    <label className="exp-section-title">Experiences</label>
       <div>
-      <Spacer />
         {ExpList.map((item, id) => {
           return (
             <div key={id}>

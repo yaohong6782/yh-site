@@ -1,9 +1,16 @@
 .experience-title{
     font-size:20px;
     font-weight:600;
+    padding-top:12px;
 }
 
 .experience-department{
     padding-bottom:18px;
     margin-top:5px;
+}
+
+.exp-section-title{
+    font-weight:600;
+    font-size:18px;
+    padding-bottom:12px;
 }
