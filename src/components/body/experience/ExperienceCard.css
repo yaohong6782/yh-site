@@ -10,10 +10,20 @@
 .experience-department {
   padding-bottom: 18px;
   margin-top: 5px;
+  font-weight: 500;
 }
 
 .exp-section-title {
   font-weight: 600;
   font-size: 18px;
   padding-top: 12px;
+}
+.experience-role {
+  padding-bottom: 18px;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.list-wrapper{
+    padding-left:16px;
 }

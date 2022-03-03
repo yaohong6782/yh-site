@@ -14,7 +14,7 @@ const Work = () => {
       id: 2,
       exp: "Changi Airport Group",
       department: "IOT Student Project with CAG",
-      role: "Software Developer",
+      role: "Student Software Developer",
     },
   ];
 
