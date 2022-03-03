@@ -6,6 +6,7 @@ const ExperienceCard = ({ props }) => {
     <div className="experience-card">
         <label className="experience-title">{props.exp}</label>
       <div className="experience-department">{"Department - "} {props.department}</div>
+      <div className="experience-role">{"Role - "} {props.role}</div>
     </div>
   );
 };
