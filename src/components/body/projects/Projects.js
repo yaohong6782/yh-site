@@ -20,15 +20,7 @@ const Projects = () => {
       github: "",
       image: faimg1,
     },
-    {
-      id: 2,
-      title: "Weather Display app",
-      about:
-        "Utilise APIs and React Components to displays the current Weather on the respective location base on the user input",
-      tags: ["ReactJS"],
-      github: "https://github.com/yaohong6782/React-WeatherApp",
-      image: waimg1,
-    },
+ 
   ];
   return (
     <div className="projects">

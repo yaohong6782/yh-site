@@ -8,7 +8,7 @@ const Education = () => {
       school: "University of Wollonggong",
       where: "",
       course: "Computer Science (Cybersecurity)",
-      duration: "2020 - Present",
+      duration: "2020 - 2022",
     },
     {
       id: 2,
