@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
 import Web from "./web/Web";
-import Mobile from "./mobile/Mobile";
+
 
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -22,7 +22,7 @@ const Header = () => {
             <i class ="fi fi-rr-list menu-icon"></i>
           </div>
         </div>
-        {openMenu && <Mobile openMenu={openMenu} setOpenMenu={setOpenMenu}/>}
+        {/* {openMenu && <Mobile openMenu={openMenu} setOpenMenu={setOpenMenu}/>} */}
       </div>
     </div>
   );
